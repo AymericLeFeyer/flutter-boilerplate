@@ -1,8 +1,8 @@
-import 'package:flutter_boilerplate/src/features/emojis/data/datasources/emoji_remote_datasource.dart';
+import 'package:flutter_boilerplate/src/features/emojis/data/data_sources/emoji_remote_datasource.dart';
 import 'package:flutter_boilerplate/src/features/emojis/data/repositories/emoji_repository_impl.dart';
 import 'package:flutter_boilerplate/src/features/emojis/domain/entities/emoji.dart';
 import 'package:flutter_boilerplate/src/features/emojis/domain/repositories/emoji_repository.dart';
-import 'package:flutter_boilerplate/src/features/emojis/domain/usecases/get_emojis.dart';
+import 'package:flutter_boilerplate/src/features/emojis/domain/use_cases/get_emojis.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'emoji_provider.g.dart';
